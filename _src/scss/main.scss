@@ -1,0 +1,22 @@
+@import "../../bower_components/susy/sass/susy";
+
+$susy: (
+  /* Tells Susy to use 12 columns */
+  columns: 12,
+  /* Tells Susy that the container has a max-width of 1120px */
+  container: 1120px,
+  /* Tells Susy to use border-box */
+  global-box-sizing: border-box 
+); 
+
+
+.container{
+	@include container;
+}
+ 
+.box{
+	@include gallery(4); 
+	border: 2px solid white;
+	height: 50px;
+	background-color: red;
+}
