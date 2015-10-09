@@ -2,6 +2,6 @@
 
 
 # Get Up And Running
-sudo npm install
-bower install susy
-gulp watch
+sudo npm install  
+bower install susy  
+gulp watch  
